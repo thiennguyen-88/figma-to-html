@@ -9,4 +9,5 @@ html {
 /* khôi phục lại font-size như lúc đầu */
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
 }
