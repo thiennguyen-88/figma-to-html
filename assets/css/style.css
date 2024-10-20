@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-.header .main-content {
+.main-content {
     width: 1170px;
     max-width: calc(100% - 48px); /* để hiện thị trên màn hình nhỏ hơn 1170px */
     margin-left: auto;
@@ -100,3 +100,27 @@ a {
     margin-left: 49px;
 }
 
+/* ================hero============= */
+.hero {
+    /* margin-top: 57px; */
+    padding-top: 57px;
+    background-color: #FFFCF4;
+}
+
+.hero .hero-body {
+    display: flex;
+}
+
+.hero .media-block {
+    width: 48%;
+}
+.hero .media-block .img {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.hero .content-block {
+    width: 52%;
+}
